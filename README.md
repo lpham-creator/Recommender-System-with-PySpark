@@ -1,4 +1,4 @@
-# Recommender-System-with-PySpark
+# Recommender System with PySpark ⭐
 ## 1. Prepare Data
 ↳ Built a PySpark pipeline to clean, transform, and prep product data for analysis.  
 ## 2. Cluster Products Using K-Means
