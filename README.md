@@ -8,10 +8,14 @@ The objective is to build a system that can automatically group similar products
 ## Technology I Used
 - Language: Python
 - Frameworks & Libraries:
-- PySpark
-- OpenAI API (for text embeddings)
-- Scikit-Learn
-- Matplotlib & Seaborn
+  
+  - PySpark
+    
+  - OpenAI API (for text embeddings)
+    
+  - Scikit-Learn
+    
+  - Matplotlib & Seaborn
 
 ## Approach: 
 - Prepare Data
@@ -27,8 +31,6 @@ The objective is to build a system that can automatically group similar products
 - Recommender System
   
   ↳ Developed a personalized recommendation system that identifies and suggests relevant products based on recent user interactions with the platform
-  
-(I have blocked out my API Key for security.)
 
   ↳ The system suggests product based on recent interactions.
 
