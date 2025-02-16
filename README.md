@@ -5,26 +5,32 @@ Product recommendation and clustering are critical components for enhancing user
 ## Business Problem
 The objective is to build a system that can automatically group similar products and provide personalized recommendations based on user interactions. This capability can improve product discoverability and increase customer engagement. 
 
-## Technology Used
+## Technology I Used
 - Language: Python
 - Frameworks & Libraries:
--     PySpark
--     OpenAI API (for text embeddings)
--     Scikit-Learn
--     Matplotlib & Seaborn
+- PySpark
+- OpenAI API (for text embeddings)
+- Scikit-Learn
+- Matplotlib & Seaborn
 
 ## Approach: 
 - Prepare Data
-↳ Built a PySpark pipeline to clean, transform, and prep product data for analysis.
+  
+  ↳  Built a PySpark pipeline to clean, transform, and prep product data for analysis.
 
 - Cluster Products Using K-Means
-↳ Implemented K-means clustering with OpenAI text embeddings to group similar products.
-↳ Employed dimensionality reduction techniques like PCA to visualize the clusters effectively.
+  
+  ↳ Implemented K-means clustering with OpenAI text embeddings to group similar products.
+  
+  ↳ Employed dimensionality reduction techniques like PCA to visualize the clusters effectively.
 
 - Recommender System
-↳ Developed a personalized recommendation system that identifies and suggests relevant products based on recent user interactions with the platform
+  
+  ↳ Developed a personalized recommendation system that identifies and suggests relevant products based on recent user interactions with the platform
+  
 (I have blocked out my API Key for security.)
-The system suggests product based on recent interactions.
+
+  ↳ The system suggests product based on recent interactions.
 
 ## Key Learnings
 - Utilizing Spark using Python code
